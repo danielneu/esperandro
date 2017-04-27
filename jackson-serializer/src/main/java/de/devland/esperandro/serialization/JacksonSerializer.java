@@ -23,7 +23,7 @@ import java.io.Serializable;
 
 public class JacksonSerializer implements Serializer {
 
-    private ObjectMapper objectMapper;
+    private ObjectMapperabc objectMapper;
 
     public JacksonSerializer() {
         objectMapper = new ObjectMapper();
