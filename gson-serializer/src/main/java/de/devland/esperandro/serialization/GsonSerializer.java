@@ -22,7 +22,7 @@ import java.io.Serializable;
 
 public class GsonSerializer implements Serializer {
 
-    private Gson gson;
+    private Gsonabc gson;
 
     public GsonSerializer() {
         this.gson = new GsonBuilder().create();
